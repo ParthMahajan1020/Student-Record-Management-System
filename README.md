@@ -29,4 +29,58 @@ This project demonstrates basic Java programming skills, object-oriented program
 ## How to Run
 1. **Clone the repository**:  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ParthMahajan1020/Student-Record-Management-System.git
+   ```
+2. **Compile the Java files**:
+   ```
+   javac Student_Record_Management_System.java
+   ```
+3. **Run the program**:
+   ```
+   java Student_Record_Management_System
+   ```
+4. Follow the menu:
+   The console will display options to add, view, update, search, or delete students.
+
+
+## Code Structure
+   ```
+   Student.java                    // Defines Student class with encapsulated fields and methods
+   StudentManagementSystem.java    // Manages CRUD operations, input validation, and data storage
+   Student_Record_Management_System.java  // Main entry point with interactive menu
+   ```
+
+## Key Highlights
+- Encapsulation: Student fields are private and accessed via getters and setters.
+
+- Dynamic List: ArrayList stores student records allowing flexible addition and deletion.
+
+- Input Validation: Ensures IDs are unique, marks are in 0–100, and text inputs are not empty.
+
+- Error Handling: Handles invalid input using InputMismatchException.
+
+## Sample Output
+```
+===== STUDENT RECORD MANAGEMENT SYSTEM =====
+1. Add Student
+2. View Students
+3. Update Student
+4. Search Student
+5. Delete Student
+6. Exit
+Enter your choice: 1
+
+--- Add Student ---
+Enter Student ID: 101
+Enter Student Name: Alice
+Enter Student Marks (0–100): 95
+✅ Student 'Alice' added successfully!
+```
+
+  ## Author
+
+*Parth Mahajan*  
+- BTech Student | Java & Software Development Enthusiast  
+- GitHub: https://github.com/ParthMahajan1020  
+- Email: parth.mahajan1020@example.com  
+- Passionate about building console applications, learning new programming languages, and exploring software projects.
